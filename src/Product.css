@@ -1,0 +1,31 @@
+.Product{
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Product:hover{
+    box-shadow: 2px 4px 8px  rgb(10, 9, 9);
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+img{
+    width:140px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 0px 10px 10px 0px;
+    transition: 0.4s ease;
+   }
+img:hover{
+    transform: scale(1.2);
+}
+.text-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
